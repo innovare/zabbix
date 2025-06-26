@@ -2,8 +2,8 @@
 
 Uso:
 1. Descargar los archivos de configuración del {customer_name}
-* wget https://https://github.com/innovare/zabbix/tree/main/7.2/customers/zabbix_agent2_{customer_name}.conf
-* wget https://https://github.com/innovare/zabbix/tree/main/7.2/customers/zabbix_agent2.userparams_{customer_name}.conf
+* wget https://github.com/innovare/zabbix/tree/main/7.2/customers/zabbix_agent2_{customer_name}.conf
+* wget https://github.com/innovare/zabbix/tree/main/7.2/customers/zabbix_agent2.userparams_{customer_name}.conf
 
 2. Mover los archivos a la ruta /etc/zabbix/ y reemplazar los existentes
 * mv zabbix_agent2_{customer_name}.conf /etc/zabbix/zabbix_agent2.conf
