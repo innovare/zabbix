@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2.0,
+    "id": "host_grid",
+    "type": "widget",
+    "name": "Innovare Host Grid",
+    "namespace": "HostGrid",
+    "version": "2.0",
+    "author": "Innovare",
+    "description": "Muestra el estado de los hosts en una cuadrícula (verde:disponible/rojo:no-disponible/gris:desconocido).",
+    "url": "https://www.innovare.pe",
+    "actions": {
+        "widget.host_grid.view": {
+            "class": "WidgetView"
+        }
+    },
+    "widget": {
+        "js_class": "WidgetHostGrid"
+    },
+    "assets": {
+        "css": ["widget.css"],
+        "js": ["class.widget.js"]
+    }
+}
