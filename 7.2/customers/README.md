@@ -6,6 +6,7 @@ Uso:
 * wget https://github.com/innovare/zabbix/tree/main/7.2/customers/zabbix_agent2.userparams_{customer_name}.conf
 
 2. Mover los archivos a la ruta /etc/zabbix/ y reemplazar los existentes
+* mv /etc/zabbix/zabbix_agent2.conf /etc/zabbix/zabbix_agent2_backup.conf
 * mv zabbix_agent2_{customer_name}.conf /etc/zabbix/zabbix_agent2.conf
 * mv zabbix_agent2.userparams_{customer_name}.conf /etc/zabbix/zabbix_agent2.userparams.conf
 
