@@ -11,8 +11,8 @@ Uso:
 
 3. Cambiar el nombre del Hostname que coincida con el del servidor con el comando
 * sed -i 's/^Hostname=.*$/Hostname=nombre-del-host/' /etc/zabbix/zabbix_agent2.conf
-* Nota:
-- nombre-del-host es el nombre del servidor.
+
+* Nota: - nombre-del-host es el nombre del servidor.
 
 4. Reiniciar los servicios del Agente2 Zabbix y Registrar el Hostname en el servidor de Monitoreo
 * systemctl restart zabbix-agent2
