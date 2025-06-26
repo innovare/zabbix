@@ -19,7 +19,7 @@ Uso:
 
 5. Añadir el usuaro zabbix al Grupo de WithSecure Elements Connector
 * usermod -aG fspms zabbix
-* Nota: (ejecutar despuesta de instlar WithSecure Elements Connector)
+* Nota: (ejecutar el comando despues de instalar WithSecure Elements Connector)
 
 6. Reiniciar los servicios y agregar el host en la Consola de Monitoreo
 * systemctl restart zabbix-agent2
